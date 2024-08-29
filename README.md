@@ -1,6 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({Name = "DRE4M HUB", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
-
 --[[
 Name = <string> - The name of the UI.
 HidePremium = <bool> - Whether or not the user details shows Premium status or not.
@@ -75,11 +74,14 @@ Tab:AddButton({ Name = "تحذير فقط شغل الريتش لا تشغل شي
 }) --[[ Name = - The name of the button. Callback = - The function of the button. ]]
 Tab:AddButton({ Name = "STREET SOCCER HUB", Callback = function() 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/hussain1323232234/My-Scripts/main/Street%20Soccer'))()end
+}) --[[ Name = - The name of the button. Callback = - The function of the button. ]]
 Tab:AddButton({ Name = "WERSTON HUB", Callback = function() 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Wreston00/tpsreach/main/tpsreach.lua"))()end
 }) --[[ Name = - The name of the button. Callback = - The function of the button. ]]
 local Tab = Window:MakeTab({ Name = "PIT SIMULATOR", Icon = "rbxassetid://4483345998", PremiumOnly = false }) --[[ Name = - The name of the tab. Icon = - The icon of the tab. PremiumOnly = - Makes the tab accessible to Sirus Premium users only. ]]
 Tab:AddButton({ Name = "REDZ HUB", Callback = function() 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/PetSimulator99/main/redz9999.lua"))()end
+}) --[[ Name = - The name of the button. Callback = - The function of the button. ]]
+ain/redz9999.lua"))()end
 }) --[[ Name = - The name of the button. Callback = - The function of the button. ]]
 
